@@ -31,10 +31,15 @@ Things you may want to cover:
 create .env file
 
 DB_NAME=grape_sample
+
 TEST_DB_NAME=grape_test
+
 DB_HOST=localhost
+
 DB_USERNAME=root
+
 DB_PASSWORD=password
+
 DB_PORT=3306
 
 
