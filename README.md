@@ -24,8 +24,7 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
+* 
 # grape_sample
 
 create .env file
@@ -41,6 +40,16 @@ DB_USERNAME=root
 DB_PASSWORD=password
 
 DB_PORT=3306
+
+rails s
+
+GET http://localhost:3000/api/v1/books/
+
+GET http://localhost:3000/api/v1/books/1
+
+POST  http://localhost:3000/api/v1/books/    params  {title: "test",author: "test"}
+
+DELETE http://localhost:3000/api/v1/books/1
 
 
 
